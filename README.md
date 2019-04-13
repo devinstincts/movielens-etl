@@ -12,16 +12,13 @@ Softwares Required:
 ### Installing
 
 * Install MongoDB and MySQL if not installed already
-* Execute the SQL script from the file [https://github.com/devinstincts/movielens-etl/blob/master/movielens.sql Movielens]. Please make sure that you do not have the databse named 'movielens' in your MySQL instance
-* Clone the repository
-```	
-git clone https://github.com/devinstincts/movielens-etl.git
-```
+* Execute the SQL script from the file movielens.sql. Please make sure that you do not have the databse named 'movielens' in your MySQL instance
+* Clone the repository `git clone https://github.com/devinstincts/movielens-etl.git`
 * Load the project into your IDE.
 For Eclipse, File --> Import --> Import Existing Maven Projects into workspace
 * Do `mvn install`
 * Start the `mongod` deamon process
-* Open the file org.devinstincts.movielens_etl.driver.MovielensETLDriver' and run it as Java application
+* Open the file `org.devinstincts.movielens_etl.driver.MovielensETLDriver` and run it as Java application
 
 ## Built With
 * Java 8
@@ -117,6 +114,11 @@ For Eclipse, File --> Import --> Import Existing Maven Projects into workspace
 
 
 ```
+<properties>
+	<spring.framework.version>4.2.4.RELEASE</spring.framework.version>
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 <dependencies>
 	<dependency>
 		<groupId>org.springframework</groupId>
