@@ -1,2 +1,2 @@
 # movielens-etl
-ETL tool for loading data MySQL to MongoDB
+ETL tool for loading data from MySQL to MongoDB
