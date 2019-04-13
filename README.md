@@ -199,6 +199,8 @@ mongo.port=27017
 # MongoDB database name
 mongo.db.name=movielens
 ```
+## Blog
+https://www.devinstincts.com/2019/03/24/couchdb-crud-node-express-nano/
 
 ## Authors
 
