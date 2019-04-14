@@ -29,7 +29,7 @@ For Eclipse, File --> Import --> Import Existing Maven Projects into workspace
 
 ### RDBMS Schema
 
-![Movielens RDBMS Schema](https://image.ibb.co/iMKBQk/movielens_mysql.jpg)
+![Movielens RDBMS Schema](https://github.com/devinstincts/movielens-etl/blob/master/movielens-mysql-schema.jpg)
 
 ### NoSQL Document JSON Schema
 
