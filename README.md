@@ -114,6 +114,9 @@ For Eclipse, File --> Import --> Import Existing Maven Projects into workspace
 }
 ```
 
+#### Document Schema
+![Document Model class diagram](https://github.com/devinstincts/movielens-etl/blob/master/movielens-document-models.jpg)
+
 ### Maven Dependencies
 
 
