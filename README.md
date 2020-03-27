@@ -31,6 +31,10 @@ For Eclipse, File --> Import --> Import Existing Maven Projects into workspace
 
 ![Movielens RDBMS Schema](https://github.com/devinstincts/movielens-etl/blob/master/movielens-mysql-schema.jpg)
 
+### Hibernate Entities and their realtionships
+
+![Entity Models and their relationships](https://github.com/devinstincts/movielens-etl/blob/master/movielens-sql-entities.jpg)
+
 ### NoSQL Document JSON Schema
 
 #### Movie Document Schema
